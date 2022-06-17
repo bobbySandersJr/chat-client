@@ -1,0 +1,46 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+.channelContainer {
+  border-bottom: 1px solid var(--ca-border);
+  width: 100%;
+  background-color: var(--bs-light);
+  height: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.channelContainer:hover {
+  background-color: var(--ca-dull);
+}
+
+.channelLink {
+  width: 100%;
+  color: var(--ca-border);
+}
+
+.linkContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.linkContent:last-child {
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
